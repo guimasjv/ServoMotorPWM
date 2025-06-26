@@ -10,35 +10,40 @@ Este projeto tem como objetivo o controle do ângulo de um servomotor através d
 
 - Microcontrolador Raspberry Pi Pico W;
 - 01 Servomotor;
-- 01 Led.
+- 01 LED RGB.
 - Simulador computacional Wokwi
 
 ## **FUNCIONALIDADES IMPLEMENTADAS**
 
-1. Configuração da GPIO 22 para PWM:
+1. Configuração da GPIO 26 para PWM:
 - A frequência de PWM foi configurada para aproximadamente 50Hz (período de 20ms).
-- A flange do servomotor foi ajustada para a posição de 180 graus com um ciclo ativo de 2.400µs (0,12% de Duty Cycle).
-- O código aguarda 05 segundos nesta posição.
+- A flange do servomotor foi ajustada inicialmente para a posição de 0 graus com um ciclo ativo de 500µs (2,5% de Duty Cycle).
+- O LED Verde é ligado com baixa intensidade.
+- O servomotor e o LED RGB aguardam 3 segundos nestas posições.
 
 2. Ajuste da posição do servomotor para 90 graus:
-- O ciclo ativo foi ajustado para 1.470µs (0,0735% de Duty Cycle).
-- A flange do servomotor foi movida para a posição de 90 graus, aguardando 05 segundos nesta posição.
+- O ciclo ativo foi ajustado para 1.470µs (7,35% de Duty Cycle).
+- A flange do servomotor foi movida para a posição de 90 graus.
+- O LED Azul é ligado com meia intensidade.
+- Ambos aguardam 3 segundos nestas posições.
 
-3. Movimento do servomotor para 0 graus:
-- O ciclo ativo foi ajustado para 500µs (0,025% de Duty Cycle).
-- A flange foi movida para a posição de 0 graus, aguardando 05 segundos nesta posição.
+3. Movimento do servomotor para 180 graus:
+- O ciclo ativo foi ajustado para 1400µs (2,5% de Duty Cycle).
+- A flange foi movida para a posição de 180 graus.
+- O LED Vermelho é ligado com máxima intensidade.
+- Ambos aguardam 3 segundos nestas posições.
 
 4. Movimentação periódica do braço do servomotor entre 0 e 180 graus:
 - A movimentação foi feita suavemente, com incremento do ciclo ativo de ±5µs e um atraso de 10ms a cada ajuste de posição.
-
-5. Experimento com LED RGB:
-- Utilizando a GPIO 12, foi realizado um experimento para observar o comportamento do LED RGB com as variações do ciclo de PWM.
-- Foi observado que o LED exibiu mudanças de cor e intensidade em função da variação do PWM, refletindo as alterações de ciclo ativo.
+- O LED RGB foi alternando as cores acessas suavemente produzindo uma espécie de arco-íris, tendo as cores definidas como:
+     VERMELHO: Diretamente proporcional ao ângulo do servomotor (máximo em 180 graus)
+     VERDE: Inversamente proporcional ao ângulo do servomotor (máximo em 0 graus)
+     AZUL: Máximo em 90 graus
 
 ## Organização da Equipe
-- **Líder de Projeto:** [VITÓRIA CAVAL5CANTI] — responsável pelo gerenciamento do repositório, estrutura do código e revisão dos pull requests.
-- **Desenvolvedor 1:** [LÁISA BIANCA] — responsável pelo movimento do servomotor para 180 e 90 graus.
-- **Desenvolvedor 2:** [LAÍSE CAFÉ] — responsável pelo movimento do servomor para 0 graus e o movimento continuo suave.
+- **Líder de Projeto:** 
+- **Desenvolvedor 1:**
+- **Desenvolvedor 2:**
 
 ---
 
