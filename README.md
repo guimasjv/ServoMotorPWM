@@ -13,7 +13,7 @@ Este projeto tem como objetivo o controle do ângulo de um servomotor através d
 - 01 LED RGB.
 - Simulador computacional Wokwi
 
-## **FUNCIONALIDADES IMPLEMENTADAS**
+## **SEQUÊNCIAS DE INSTRUÇÕES**
 
 1. Configuração da GPIO 26 para PWM:
 - A frequência de PWM foi configurada para aproximadamente 50Hz (período de 20ms).
