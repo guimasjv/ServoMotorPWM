@@ -47,8 +47,9 @@ Este projeto tem como objetivo o controle do ângulo de um servomotor através d
 
 ---
 
-## **VÍDEO EXPLICATIVO**
+## **VÍDEO DE FUNCIONAMENTO**
 
+https://www.canva.com/design/DAGtWLygTQk/cJX9Vy5qZN5BNMJtptZzpw/edit?utm_content=DAGtWLygTQk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Licença
 Este projeto é destinado exclusivamente para fins acadêmicos na disciplina **ELET0021 — Microcontroladores e Microprocessadores**.
