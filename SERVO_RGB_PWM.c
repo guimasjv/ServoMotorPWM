@@ -23,7 +23,7 @@
 
 */
 
-uint slice_servo;                      // Variável para armazenar o slice PWM do servo
+uint slice_servo;                        // Variável para armazenar o slice PWM do servo
 uint slice_r, slice_g, slice_b;        // Slices PWM dos canais R, G e B
 
 // Calcula o duty cycle proporcional ao tempo de pulso desejado
