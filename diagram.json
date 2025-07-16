@@ -2,7 +2,7 @@
   "version": 1,
   "author": "João Victor Guimarães",
   "editor": "wokwi",
-  "parts": [
+  "parts": [ 
     {
       "type": "board-pi-pico-w",
       "id": "pico",
