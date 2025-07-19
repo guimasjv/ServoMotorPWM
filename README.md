@@ -41,9 +41,9 @@ Este projeto tem como objetivo o controle do ângulo de um servomotor através d
      AZUL: Máximo em 90 graus
 
 ## Organização da Equipe
-- **Líder de Projeto: João Victor Guimarães** 
-- **Desenvolvedor 1: João Victor Teixeira**
-- **Desenvolvedor 2: Ryan Farias**
+- **Líder de Projeto: João Victor Guimarães** (Codificação e simulação no wokwi)
+- **Desenvolvedor 1: João Victor Teixeira** (Escrita do repositório)
+- **Desenvolvedor 2: Ryan Farias** (Compilação no VS Code e gravação de vídeo)
 
 ---
 
